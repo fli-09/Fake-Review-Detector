@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Fake Review Detector",
+    "version": "1.0",
+    "description": "Detects if a product review is fake using AI",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "assets/detective.png",
+            "48": "assets/detective.png",
+            "128": "assets/detective.png"
+        }
+    },
+    "icons": {
+        "16": "assets/detective.png",
+        "48": "assets/detective.png",
+        "128": "assets/detective.png"
+    },
+    "host_permissions": [
+        "http://127.0.0.1:5000/"
+    ]
+}
